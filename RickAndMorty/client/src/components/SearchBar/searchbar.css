@@ -1,0 +1,21 @@
+.SearchBar-Container{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.inputSearchBar{
+    width: 450px;
+    border-radius:10px;
+}
+
+.inputButton{
+    padding: 8px 20px;
+    border-radius:10px;
+}
+
+.buttonSearch{
+    padding-left: 2%;
+}
+

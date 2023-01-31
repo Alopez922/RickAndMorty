@@ -1,0 +1,51 @@
+.Navbar-Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1px 15% ; */
+    padding: 15px 10%;
+    background-color:aliceblue;
+}
+
+.titulo{
+    display: inline-block;
+    
+}
+
+.rick{
+    font-size: 2rem;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 1.5s steps(20, end) forwards, 
+    blinking .95s infinite;
+    
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes blinking{
+    from {border-color: transparent;}
+    to {border-color: rgb(17, 17, 202);}
+}
+
+
+
+li{
+    align-items: center;
+    padding: 20px;
+    display: inline;
+    
+}
+
+.lista{
+    font-size: 20px;
+}
+
+
+
+
+

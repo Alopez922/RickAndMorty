@@ -1,0 +1,38 @@
+.filter-card{
+display: flex;
+padding: 30px 10%;
+
+}
+
+.Card-Home {
+    /* padding: 1px 20% ; */
+    display: grid;
+    justify-items:center;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: sticky;
+     /* margin-top: 3ex; 
+    padding-bottom: 15%; */
+}
+
+
+.filter{
+    width: 300px;
+}
+
+/* .Card-Home{
+    padding: 1px 30% ;
+
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    grid-template-columns: repeat(3,2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: sticky;
+    margin-top: 3ex; 
+    padding-bottom: 15%;
+} */
+
+

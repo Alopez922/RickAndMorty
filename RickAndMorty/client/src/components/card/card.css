@@ -1,0 +1,70 @@
+.Card-Container{
+    border: solid blue;
+    border-radius: 10px;
+    position: relative;
+    width: 250px;
+    height: 425px;
+    margin:20px;
+}
+
+
+.image{
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position:relative;
+    width:100%;
+    
+}
+
+
+.Card-name{
+ display: flex;
+ justify-content:left;
+ padding-left: 10px;
+}
+
+.Card-location{
+display: flex;
+justify-content: left;
+padding-left: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+  
+}
+
+.status{
+    position:absolute;
+    top: 6px;
+    right: 8px;
+    border: solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.Dead{
+    position:absolute;
+    top: 6px;
+    right: 8px;
+    border: solid red;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+
+.Alive{
+    position:absolute;
+    top: 6px;
+    right: 8px;
+    border: solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+.landing-Container{
+    display: block;
+    background-image: url("https://vsthemes.org/uploads/posts/2021-03/1616982332_skrinshot-29-03-2021-06_43_15.webp");
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.button {
+    padding: 2px 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+
+    margin-top: 70ex;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+    background: rgb(250, 250, 250); /* color de fondo */
+    color: #020114; /* color de fuente */
+    border: 1px solid #1d6189; /* tamaño y color de borde */
+   
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button:before, .button:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    background-color: #b9ad00; /* color de fondo hover */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .button:after {
+    left: 100%;
+  }
+  .button:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .button:hover:before {
+    left: 0;
+  }
+  .button:hover:after {
+    left: 50%;
+  }
