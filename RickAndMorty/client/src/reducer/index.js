@@ -1,5 +1,6 @@
 const initialState={
     characters:[],
+    singlecharacter:[],
     allcharacters:[],
     episodes:[],
     allEpisodes:[]
@@ -12,6 +13,13 @@ function rootReducer(state = initialState,action){
                 ...state,
                 characters:action.payload,
                 allcharacters:action.payload
+            }
+
+        case "GET_SINGLECHARACTER":
+            return{
+                ...state,
+                singleCharacter:action.payload,
+
             }
 
         case "GET_EPISODES":

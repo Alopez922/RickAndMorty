@@ -1,3 +1,15 @@
+.card-episode {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  position: sticky;
+}
+
+
+
 .select-episode{
-    width: 100px;
+  width: 150px;
+  margin: 20px;
 }

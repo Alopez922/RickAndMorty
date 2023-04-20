@@ -10,6 +10,16 @@ export function getCharacters(){
     }
 }
 
+export function getSingleCharacter(id){
+    return async function(dispatch){
+        let json = await axios.get(`http://localhost:3001/characters/${id}`)
+        return dispatch({
+            type:"GET_SINGLECHARACTER",
+            payload:json.data
+        })
+    }
+}
+
 export function getEpisodes(){
     return async function(dispatch){
         let json = await axios.get("http://localhost:3001/episodes")
@@ -47,3 +57,4 @@ export function filterByGender(payload){
         payload:payload
     }
 }
+

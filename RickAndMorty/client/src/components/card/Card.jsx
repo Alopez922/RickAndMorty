@@ -18,7 +18,7 @@ export default function Card({name,status,species,type,gender,image, location}){
             <div>Last Location</div>
         </div>
         <div className="location">
-        <span>{location}  </span>
+        <span>{location}</span>
         </div>
 
         <div className="status">

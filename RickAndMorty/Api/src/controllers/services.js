@@ -1,4 +1,4 @@
-const axios = require("axios");
+const axios = require ("axios")
 const {Character, Episode}= require("../db")
 
 
@@ -126,6 +126,14 @@ const getApiEpisodes= async()=>{
 
 
 
+const getSingleEpisode = async (id) => {
+    try {
+      const response = await axios.get(`https://rickandmortyapi.com/api/episode/${id}`);
+      return response.data;
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
 module.exports ={
     getApiInfo,
@@ -134,5 +142,6 @@ module.exports ={
     characterToDb,
     getDbInfo,
     getApiEpisodes,
+    getSingleEpisode
     
 }

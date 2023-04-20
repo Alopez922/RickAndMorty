@@ -16,8 +16,6 @@ export default function Home(){
     const allCharacters = useSelector((state)=>state.characters)
 
 
-//PAGINADO NADA MAS
-
 const [currentPage,setCurrentPage]= useState(1);
 const [charactersPerPage]= useState(10);
 const indexLastCharacter = currentPage * charactersPerPage;
